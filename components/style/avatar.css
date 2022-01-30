@@ -1,0 +1,46 @@
+.default-avatar, .circle-avatar, .square-avatar {
+  height: 3rem;
+  width: 3rem;
+}
+
+.circle-avatar {
+  border-radius: 50%;
+  border: 2px solid #878282;
+}
+
+.appearance-avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.square-avatar {
+
+}
+
+.hr-border {
+  border-bottom: 2px solid #cbc7c7;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.xxlarge {
+  width: 10rem;
+  height: 10rem;
+}
+
+.xlarge {
+  width: 7rem;
+  height: 7rem;
+}
+
+.large {
+  width: 3rem;
+  height: 3rem;
+}
+
+.medium {
+  width: 2rem;
+  height: 2rem;
+}

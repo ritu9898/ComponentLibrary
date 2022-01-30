@@ -1,0 +1,19 @@
+.default-badge, .badge-on-avatar {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-badge {
+  position: relative;
+}
+
+.badge-on-avatar {
+  position: absolute;
+    top: 532px;
+    right: 803px;
+    background-color: chartreuse;
+}
