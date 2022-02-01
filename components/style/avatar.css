@@ -1,11 +1,13 @@
 .default-avatar, .circle-avatar, .square-avatar {
   height: 3rem;
   width: 3rem;
+  object-fit: cover;
 }
 
 .circle-avatar {
   border-radius: 50%;
   border: 2px solid #878282;
+  object-fit: cover;
 }
 
 .appearance-avatar {
@@ -16,7 +18,7 @@
 }
 
 .square-avatar {
-
+  object-fit: cover;
 }
 
 .hr-border {

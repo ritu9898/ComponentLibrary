@@ -1,0 +1,40 @@
+.card-section {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  height: auto;
+  width: 10rem;
+  padding: 0 2rem;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 4px grey;
+  cursor: pointer;
+}
+
+.child-card {
+  margin: 2rem 0 0 0;
+  padding: 3rem;
+  background-color: #f5f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .title {
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.card .default-avatar {
+
+}
