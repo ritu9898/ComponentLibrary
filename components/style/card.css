@@ -1,11 +1,12 @@
 .card-section {
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .card {
   height: auto;
-  width: 10rem;
+  width: 20rem;
   padding: 0 2rem;
   background-color: white;
   border-radius: 5px;
@@ -25,6 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .card .title {
@@ -37,4 +39,19 @@
 
 .card .default-avatar {
 
+}
+
+.child-card img {
+  height: 10rem;
+  width: auto;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  font-size: 25px !important;
+}
+
+.transparent {
+  opacity: 0.4;
 }

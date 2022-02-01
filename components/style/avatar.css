@@ -1,6 +1,6 @@
 .default-avatar, .circle-avatar, .square-avatar {
-  height: 3rem;
-  width: 3rem;
+  height: 3rem !important;
+  width: 3rem !important;
   object-fit: cover;
 }
 
