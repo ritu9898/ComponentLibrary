@@ -6,3 +6,7 @@ $('.side-bar ul li').on('click', function(){
   let content = $('#content');
   $('#content').load('./components/' + id +'.html');
 });
+
+$('.dismiss').on('click', function(){
+  $(this).parent()[0].style.visibility = 'hidden'
+});

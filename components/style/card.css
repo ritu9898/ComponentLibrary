@@ -55,3 +55,39 @@
 .transparent {
   opacity: 0.4;
 }
+
+.vertical-cards-section {
+  display: flex;
+  justify-items: center;
+  gap: 20px;
+}
+
+.vertical-cards-section .card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  position: relative;
+}
+
+.vertical-cards-section .child-card {
+  margin: 1rem 0;
+  /* padding: 4rem; */
+  background-color: #f5f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.vertical-cards-section p {
+  font-size: 14px !important;
+}
+
+.dismiss {
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+}
