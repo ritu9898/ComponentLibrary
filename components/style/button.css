@@ -39,3 +39,7 @@
 .loading {
   background-color: #04AA6D;
 }
+
+.icon i {
+  margin: 0 0.5rem;
+}
