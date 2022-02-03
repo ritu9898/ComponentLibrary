@@ -1,0 +1,41 @@
+.button {
+  cursor: pointer;
+}
+
+.default {
+  padding: 0.5rem 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.default span {
+  transition: opacity 0.3s;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.primary {
+  background-color: #0052cc;
+  color: white;
+}
+
+.warning {
+  background-color: #ffab00;
+}
+
+.danger {
+  background-color: #de350b;
+  color: white;
+}
+
+.disabled {
+  cursor: not-allowed;
+  text-decoration: none;
+  color: #a5adba;
+}
+
+.loading {
+  background-color: #04AA6D;
+}
