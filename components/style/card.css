@@ -8,8 +8,8 @@
   height: auto;
   width: 20rem;
   padding: 0 2rem;
-  /* background-color: white; */
-  background-color: hsl(0deg 0% 0% / 10%);
+  background-color: white;
+  border: 1px solid var(--ds-border-neutral,#EBECF0);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
