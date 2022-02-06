@@ -10,3 +10,7 @@ $('.side-bar ul li').on('click', function(){
 $('.dismiss').on('click', function(){
   $(this).parent()[0].style.visibility = 'hidden'
 });
+
+$('.alert .close').on('click', function(){
+  $(this).parent()[0].style.display = 'none';
+});

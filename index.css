@@ -29,6 +29,7 @@ body {
 #sidebar {
   display: flex;
   flex-direction: row;
+  border-right: 1px solid var(--ds-border-neutral,#EBECF0);
 }
 
 .side-bar {
@@ -36,7 +37,8 @@ body {
   width: 10rem;
   text-align: justify;
   height: auto;
-  background-color: #f8f6f5;
+  /* background-color: #f8f6f5; */
+  background-color: white;
   font-size: 14px;
 }
 
