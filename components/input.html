@@ -1,12 +1,12 @@
 <div class="component">
   <link href="../components/style/input.css" rel="stylesheet" />
-  <h2>Alert</h2>   
-  <p>A button triggers an event or action. They let users know what will happen next.</p>
+  <h2>Input</h2>   
+  <p>An input field that is used to take inputs like username, password, or many more. Usually used in form tags.</p>
 
   <div class="hr-border">
     <!-- Default -->
     <h2>Default</h2>
-    <p>The default form of an alert.</p>
+    <p>The default form of an input box.</p>
     <div>
       <div class="code-border">
         <div class="code-bg">
@@ -15,11 +15,92 @@
           </div>
         </div>
         <code>
-          <span><</span>div class="default-avatar"<span>></span>
-          <span><</span>div<span>></span>
+          <xmp>
+            <div class="input-group">
+              <input class="" placeholder="Username" />
+            </div>
+          </xmp>
         </code>
       </div>
     </div>
+
+     <!-- Sizing -->
+     <h2>Sizing</h2>
+     <p>Set heights using classes like .input-lg and .input-sm.</p>
+     <div>
+       <div class="code-border">
+         <div class="code-bg">
+            <div class="input-group">
+              <input class="input-lg" placeholder="Large" />
+            </div>
+            <div class="input-group">
+              <input class="" placeholder="Default" />
+            </div>
+            <div class="input-group">
+              <input class="input-sm" placeholder="Small" />
+            </div>
+         </div>
+         <code>
+           <xmp>
+              <div class="input-group">
+                <input class="input-lg" placeholder="Large" />
+              </div>
+              <div class="input-group">
+                <input class="" placeholder="Default" />
+              </div>
+              <div class="input-group">
+                <input class="input-sm" placeholder="Small" />
+              </div>
+           </xmp>
+         </code>
+       </div>
+     </div>
+
+     <!-- Disabled -->
+    <h2>Disabled</h2>
+    <p>Add the disabled boolean attribute on an input to prevent user interactions and make it appear lighter.</p>
+    <div>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="input-group">
+            <input class="input-disabled" placeholder="Username" disabled />
+          </div>
+        </div>
+        <code>
+          <xmp>
+            <div class="input-group">
+              <input class="input-disabled" placeholder="Username" disabled />
+            </div>
+          </xmp>
+        </code>
+      </div>
+    </div>
+
+     <!-- Validations -->
+     <h2>Validations</h2>
+     <p>We recommend using client side validation, but in case you require server side, you can indicate invalid and valid form fields with .is-invalid and .is-valid. Note that .invalid-feedback is also supported with these classes.</p>
+     <div>
+       <div class="code-border">
+         <div class="code-bg">
+            <div class="input-group">
+              <input class="invalid-input" placeholder="Username" />
+              <div class="invalid-input-msg">
+                Please provide some input
+              </div>
+            </div>
+         </div>
+         <code>
+           <xmp>
+              <div class="input-group">
+                <input class="invalid-input" placeholder="Username" />
+                <div class="invalid-input-msg">
+                  Please provide some input
+                </div>
+              </div>
+           </xmp>
+         </code>
+       </div>
+     </div>
 
   </div>
 </div>
