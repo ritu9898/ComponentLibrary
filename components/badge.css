@@ -1,0 +1,52 @@
+.default-badge, .badge-on-avatar {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-badge {
+  position: relative;
+}
+
+.cart-badge {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.badge-on-avatar {
+  position: absolute;
+  background-color: chartreuse;
+  right: 0;
+  bottom: 0;
+  left: 30px;
+  top: -6px;
+}
+
+.notification-badge {
+  background-color: red;
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+.cart-on-badge {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 40px;
+  top: -9px;
+}
+
+.badge-on-card {
+  width: auto;
+  background-color: bisque;
+  padding: 0.5rem 0.5rem;
+  /* margin: 2rem 0px; */
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,184 +1,225 @@
-<!-- <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../index.css" rel="stylesheet" />
+<div class="component">
+  <h2>Button</h2>   
+  <p>A button triggers an event or action. They let users know what will happen next.</p>
+    <!-- Default -->
+    <div class="hr-border">
+    <h2>Default</h2>
+    <p>
+      The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
+    </p>
+    <div class="code-border">
+      <div class="code-bg">
+        <div class="button">
+          <button class="default">Default Button</button>
+        </div>
+      </div>
+      <code>
+        <xmp>
+        <div class="button">
+          <button class="default">Default Button</button>
+        </div>
+        </xmp>
+      </code>
+    </div>
+  </div>
   
-<!-- </head>
-<body> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="../components/style/button.css" rel="stylesheet" />
-  <div class="component">
-    <h2>Button</h2>   
-    <p>A button triggers an event or action. They let users know what will happen next.</p>
-
-     <!-- Default -->
-     <div class="hr-border">
-      <h2>Default</h2>
+  <div class="appearance">
+    <h2>Appearance</h2>
+    <!-- Primary -->
+    <div class="hr-border">
+      <h3>Primary</h3>
       <p>
         The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
       </p>
-      
-      <div class="button">
-        <button class="default">Default Button</button>
-      </div>
-      <div>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="button">
+            <button class="default primary">
+              <span>Primary Button</span></button>
+          </div>
+        </div>
         <code>
-          <span><</span>div class="default-avatar"<span>></span>
-          <span><</span>div<span>></span>
+          <xmp>
+          <div class="button">
+            <button class="default primary">
+              <span>Primary Button</span></button>
+          </div>
+          </xmp>
         </code>
       </div>
     </div>
-    
-    <div class="appearance">
-      <h2>Appearance</h2>
-      <!-- Primary -->
-      <div class="hr-border">
-        <h3>Primary</h3>
-        <p>
-          The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
-        </p>
-        
-        <div class="button">
-          <button class="default primary">
-            <span>Primary Button</span></button>
-        </div>
-        <div>
-          <code>
-            <span><</span>div class="default-avatar"<span>></span>
-            <span><</span>div<span>></span>
-          </code>
-        </div>
-      </div>
 
-      <!-- Warning -->
-      <div class="hr-border">
-        <h3>Warning</h3>
-        <p>
-          The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
-        </p>
-        
-        <div class="button">
-          <button class="default warning">
-            <span>Warning Button</span></button>
+    <!-- Warning -->
+    <div class="hr-border">
+      <h3>Warning</h3>
+      <p>
+        The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
+      </p>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="button">
+            <button class="default warning">
+              <span>Warning Button</span></button>
+          </div>
         </div>
-        <div>
-          <code>
-            <span><</span>div class="default-avatar"<span>></span>
-            <span><</span>div<span>></span>
-          </code>
-        </div>
-      </div>
-
-       <!-- Danger -->
-       <div class="hr-border">
-        <h3>Danger</h3>
-        <p>
-          The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
-        </p>
-        
-        <div class="button">
-          <button class="default danger">
-            <span>Danger Button</span></button>
-        </div>
-        <div>
-          <code>
-            <span><</span>div class="default-avatar"<span>></span>
-            <span><</span>div<span>></span>
-          </code>
-        </div>
+        <code>
+          <xmp>
+          <div class="button">
+            <button class="default warning">
+              <span>Warning Button</span></button>
+          </div>
+          </xmp>
+        </code>
       </div>
     </div>
 
-    <div class="states">
-      <h2>States</h2>
-      <!-- Disabled -->
+      <!-- Danger -->
       <div class="hr-border">
-        <h3>Disabled</h3>
-        <p>
-          The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
-        </p>
-        
-        <div class="button">
-          <button class="default disabled" disabled>
-            <span>Disabled Button</span></button>
+      <h3>Danger</h3>
+      <p>
+        The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
+      </p>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="button">
+            <button class="default danger">
+              <span>Danger Button</span></button>
+          </div>
         </div>
-        <div>
-          <code>
-            <span><</span>div class="default-avatar"<span>></span>
-            <span><</span>div<span>></span>
-          </code>
-        </div>
-      </div>
-
-      <!-- Loading -->
-      <div class="hr-border">
-        <h3>Loading</h3>
-        <p>
-          The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
-        </p>
-        
-        <div class="button">
-          <button class="default loading" data-has-overlay=true>
-            <i class="fa fa-spinner fa-spin"></i>
-            <span>Loading Button</span>
-          </button>
-          <button class="default loading" data-has-overlay=true>
-            <i class="fa fa-circle-o-notch fa-spin"></i>
-            <span>Loading Button</span>
-          </button>
-          <button class="default loading" data-has-overlay=true>
-            <i class="fa fa-refresh fa-spin"></i>
-            <span>Loading Button</span>
-          </button>
-        </div>
-        <div>
-          <code>
-            <span><</span>div class="default-avatar"<span>></span>
-            <span><</span>div<span>></span>
-          </code>
-        </div>
+        <code>
+          <xmp>
+          <div class="button">
+            <button class="default danger">
+              <span>Danger Button</span></button>
+          </div>
+          </xmp>
+        </code>
       </div>
     </div>
-    
-    <div class="button-with-icon">
-      <h2>Button with icon</h2>
-      <!-- Icon before -->
-      <div class="hr-border">
-        <h3>Icon before</h3>
-        <p>
-          Display an icon before the text.
-        </p>
-        
-        <div class="button">
-          <button class="default primary icon">
-            <span><i class="fa fa-star-o"></i> Icon before</span></button>
-        </div>
-        <div>
-          <code>
-            <span><</span>div class="default-avatar"<span>></span>
-            <span><</span>div<span>></span>
-          </code>
-        </div>
-      </div>
-
-      <!-- Icon after -->
-      <div class="hr-border">
-        <h3>Icon after</h3>
-        <p>
-          Display an icon after the text.
-        </p>
-        
-        <div class="button">
-          <button class="default primary icon">
-            <span>Icon before<i class="fa fa-star-o"></i> </span></button>
-        </div>
-        <div>
-          <code>
-            <span><</span>div class="default-avatar"<span>></span>
-            <span><</span>div<span>></span>
-          </code>
-        </div>
-      </div>
-
-    </div>
-
   </div>
-<!-- </body>
-</html> -->
+
+  <div class="states">
+    <h2>States</h2>
+    <!-- Disabled -->
+    <div class="hr-border">
+      <h3>Disabled</h3>
+      <p>
+        The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
+      </p>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="button">
+            <button class="default disabled" disabled>
+              <span>Disabled Button</span></button>
+          </div>
+        </div>
+        <code>
+          <xmp>
+          <div class="button">
+            <button class="default disabled" disabled>
+              <span>Disabled Button</span></button>
+          </div>
+          </xmp>
+        </code>
+      </div>
+    </div>
+
+    <!-- Loading -->
+    <div class="hr-border">
+      <h3>Loading</h3>
+      <p>
+        The default form of a button, used for most cases. They are not impactful enough to represent the primary action in a container.
+      </p>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="button">
+            <button class="default loading" data-has-overlay=true>
+              <i class="fa fa-spinner fa-spin"></i>
+              <span>Loading Button</span>
+            </button>
+            <button class="default loading" data-has-overlay=true>
+              <i class="fa fa-circle-o-notch fa-spin"></i>
+              <span>Loading Button</span>
+            </button>
+            <button class="default loading" data-has-overlay=true>
+              <i class="fa fa-refresh fa-spin"></i>
+              <span>Loading Button</span>
+            </button>
+          </div>
+        </div>
+        <code>
+          <xmp>
+          <div class="button">
+            <button class="default loading" data-has-overlay=true>
+              <i class="fa fa-spinner fa-spin"></i>
+              <span>Loading Button</span>
+            </button>
+            <button class="default loading" data-has-overlay=true>
+              <i class="fa fa-circle-o-notch fa-spin"></i>
+              <span>Loading Button</span>
+            </button>
+            <button class="default loading" data-has-overlay=true>
+              <i class="fa fa-refresh fa-spin"></i>
+              <span>Loading Button</span>
+            </button>
+          </div>
+          </xmp>
+        </code>
+      </div>
+    </div>
+  </div>
+  
+  <div class="button-with-icon">
+    <h2>Button with icon</h2>
+    <!-- Icon before -->
+    <div class="hr-border">
+      <h3>Icon before</h3>
+      <p>
+        Display an icon before the text.
+      </p>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="button">
+            <button class="default primary icon">
+              <span><i class="fa fa-star-o"></i> Icon before</span></button>
+          </div>
+        </div>
+        <code>
+          <xmp>
+          <div class="button">
+            <button class="default primary icon">
+              <span><i class="fa fa-star-o"></i> Icon before</span></button>
+          </div>
+          </xmp>
+        </code>
+      </div>
+    </div>
+
+    <!-- Icon after -->
+    <div class="hr-border">
+      <h3>Icon after</h3>
+      <p>
+        Display an icon after the text.
+      </p>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="button">
+            <button class="default primary icon">
+              <span>Icon before<i class="fa fa-star-o"></i> </span></button>
+          </div>
+        </div>
+        <code>
+          <xmp>
+          <div class="button">
+            <button class="default primary icon">
+              <span>Icon before<i class="fa fa-star-o"></i> </span></button>
+          </div>
+          </xmp>
+        </code>
+      </div>
+    </div>
+  </div>
+</div>
+
