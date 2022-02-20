@@ -2,7 +2,7 @@
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 50%;
-  background-color: silver;
+  background-color: var(--silver);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
 
 .badge-on-avatar {
   position: absolute;
-  background-color: chartreuse;
+  background-color: var(--chartreuse);
   right: 0;
   bottom: 0;
   left: 30px;
@@ -27,8 +27,8 @@
 }
 
 .notification-badge {
-  background-color: red;
-  color: whitesmoke;
+  background-color: var(--red);
+  color: var(--whitesmoke);
   font-size: 10px;
 }
 
@@ -42,9 +42,8 @@
 
 .badge-on-card {
   width: auto;
-  background-color: bisque;
+  background-color: var(--bisque);
   padding: 0.5rem 0.5rem;
-  /* margin: 2rem 0px; */
   border-radius: 5px;
   position: absolute;
   top: 0;

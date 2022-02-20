@@ -1,5 +1,5 @@
 .alert {
-  color: #fbfdff;
+  color: var(--alert);
   position: relative;
 }
 
@@ -8,9 +8,9 @@
 }
 
 .danger {
-  color: #721c24;
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
+  color: var(--danger-alert);
+  background-color: var(--danger-alert-bg);
+  border-color: var(--danger-alert-border);
 }
 
 .alert p span {
@@ -19,15 +19,15 @@
 }
 
 .info {
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
+  color: var(--info-alert);
+  background-color: var(--info-alert-bg);
+  border-color: var(--info-alert-border);
 }
 
 .success {
-  color: #3c763d;
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
+  color: var(--success-alert);
+  background-color: var(--success-alert-bg);
+  border-color: var(--success-alert-border);
 }
 
 button.close {

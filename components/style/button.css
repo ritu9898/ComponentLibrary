@@ -17,27 +17,27 @@
 }
 
 .primary {
-  background-color: #0052cc;
-  color: white;
+  background-color: var(--primary-btn);
+  color: var(--white);
 }
 
 .warning {
-  background-color: #ffab00;
+  background-color: var(--warning-btn);
 }
 
 .danger {
-  background-color: #de350b;
-  color: white;
+  background-color: var(--danger-btn);
+  color: var(--white);
 }
 
 .disabled {
   cursor: not-allowed;
   text-decoration: none;
-  color: #a5adba;
+  color: var(--disabled-btn);
 }
 
 .loading {
-  background-color: #04AA6D;
+  background-color: var(--loading-btn);
 }
 
 .icon i {
