@@ -5,6 +5,7 @@
 @import url('./components/style/input.css');
 @import url('./components/style/alert.css');
 @import url('./components/style/typography.css');
+@import url('./components/style/color.css');
 
 :root {
   --header: linear-gradient(135deg, #1da1f2, #981ceb);
