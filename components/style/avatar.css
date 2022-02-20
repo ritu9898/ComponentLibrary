@@ -1,6 +1,6 @@
 .default-avatar, .circle-avatar, .square-avatar {
-  height: 3rem !important;
-  width: 3rem !important;
+  height: 3rem;
+  width: 3rem;
   object-fit: cover;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .hr-border {
-  border-bottom: 2px solid #cbc7c7;
+  /* border-bottom: 2px solid #cbc7c7; */
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
