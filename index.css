@@ -172,3 +172,46 @@ code {
   border-radius: 4px;
   box-shadow: 0 0 0 1.2px var(--ds-border-neutral,#ebecf0);
 }
+
+@media screen and (min-width:200px) and (max-width:780px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:380px) and (max-width:570px)  {
+  .card {
+    width: 10rem;
+  }
+
+  .card-section .hr-border {
+    max-width: -webkit-fill-available;;
+  }
+
+  .card-section .default-avatar, .card-section .circle-avatar, .card-section .square-avatar  {
+    height: 1rem !important;
+    width: 1rem !important;
+  }
+
+  .vertical-cards-section {
+    flex-direction: column;
+  }
+  
+  .vertical-cards-section .card {
+    flex-direction: column;
+  }
+
+  .card-section .code-border {
+    max-width: -webkit-fill-available;
+  }
+
+  .xxlarge {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .xlarge {
+    width: 4rem;
+    height: 4rem;
+  }
+}
