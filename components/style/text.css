@@ -1,0 +1,43 @@
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-weight-bold {
+  font-weight: 700 !important;
+}
+
+.text-weight-normal {
+  font-weight: 400 !important;
+}
+
+.text-light {
+  font-weight: lighter;
+}
+
+.text-italics {
+  font-style: italic;
+}
