@@ -1,8 +1,48 @@
 .list {
   box-shadow: 0px 0px 1px var(--grey);
+  width: 20rem;
+  background-color: var(--white);
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 
-.list p {
-  padding: 5px 15px;
-  border-bottom: 1px solid var(--grey);
+.list .details {
+  padding: 0px 15px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+
+.list .details .title {
+  color: var(--grey);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.list .details .app-title {
+  font-weight: 700;
+}
+
+.list .details .time {
+  color: var(--grey);
+  font-size: 14px;
+}
+
+.list .icon {
+  font-size: 2rem;
+  padding: 1rem 0px;
+  position: relative;
+  top: 15px;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list ul li:before {
+  content: '✓';
+}
+
+.list ul li {
+  padding: 10px;
 }

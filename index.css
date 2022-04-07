@@ -49,6 +49,7 @@
   --invalid-input: #dc3545;
   --invalid-input-shadow:rgb(220 53 69 / 25%);
   --sidebar-border: #EBECF0;
+  --list-border:#e0dada;
 }
 
 body {
