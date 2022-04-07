@@ -8,6 +8,7 @@
 @import url('./components/style/color.css');
 @import url('./components/style/text.css');
 @import url('./components/style/list.css');
+@import url('./components/style/grid.css');
 
 :root {
   --header: linear-gradient(135deg, #1da1f2, #981ceb);
@@ -50,6 +51,7 @@
   --invalid-input-shadow:rgb(220 53 69 / 25%);
   --sidebar-border: #EBECF0;
   --list-border:#e0dada;
+  --grid-border: rgba(86,61,124,.2);
 }
 
 body {

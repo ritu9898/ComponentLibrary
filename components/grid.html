@@ -1,0 +1,138 @@
+<div class="component">
+  <link href="../components/style/input.css" rel="stylesheet" />
+  <h2>Grid</h2>   
+  <p>	Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes. </p>
+
+  <div class="hr-border">
+    <!-- Default -->
+    <h2>Default - with fixed sizes</h2>
+    <p>The grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together.</p>
+    <div>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="grid">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  One
+                </div>
+                <div class="col-sm">
+                  Two
+                </div>
+                <div class="col-sm">
+                  Three
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <code>
+          <xmp>
+            <div class="grid">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    One
+                  </div>
+                  <div class="col-sm">
+                    Two
+                  </div>
+                  <div class="col-sm">
+                    Three
+                  </div>
+                </div>
+              </div>
+            </div>
+          </xmp>
+        </code>
+      </div>
+    </div>
+
+     <!-- Setting one column width -->
+     <h2>Setting one column width</h2>
+     <p>Auto-layout for flexbox grid columns also means you can set the width of one column and have the sibling columns automatically resize around it. You can use col to col-6 for different sizes.</p>
+     <div>
+       <div class="code-border">
+         <div class="code-bg">
+           <div class="grid">
+             <div class="container">
+               <div class="row">
+                 <div class="col-sm">
+                   One
+                 </div>
+                 <div class="col-6">
+                   Two
+                 </div>
+                 <div class="col-sm">
+                   Three
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <code>
+           <xmp>
+             <div class="grid">
+               <div class="container">
+                 <div class="row">
+                   <div class="col-sm">
+                     One
+                   </div>
+                   <div class="col-sm">
+                     Two
+                   </div>
+                   <div class="col-sm">
+                     Three
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </xmp>
+         </code>
+       </div>
+     </div>
+
+     <!-- Variable width content -->
+     <h2>Variable width content</h2>
+     <p>Use col-md-auto classes to size columns based on the natural width of their content.</p>
+     <div>
+       <div class="code-border">
+         <div class="code-bg">
+           <div class="grid">
+            <div class="container">
+              <div class="row">
+                <div class="col col-2">
+                  Fixed
+                </div>
+                <div class="col-auto">
+                  Variable width content
+                </div>
+                <div class="col col-2">
+                  Fixed
+                </div>
+              </div>
+           </div>
+         </div>
+         <code>
+           <xmp>
+            <div class="grid">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-2">
+                    Fixed
+                  </div>
+                  <div class="col-auto">
+                    Variable width content
+                  </div>
+                  <div class="col col-2">
+                    Fixed
+                  </div>
+                </div>
+             </div>
+           </xmp>
+         </code>
+       </div>
+     </div>
+
+  </div>
+</div>
