@@ -1,0 +1,8 @@
+.list {
+  box-shadow: 0px 0px 1px var(--grey);
+}
+
+.list p {
+  padding: 5px 15px;
+  border-bottom: 1px solid var(--grey);
+}
