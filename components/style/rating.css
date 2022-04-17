@@ -1,0 +1,49 @@
+.rate i, .rate .plain i, .rate span {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  font-size: x-large;
+}
+
+.rate span {
+  color: darkgray;
+}
+.rate i::before {
+  content: "\f005";
+}
+
+.rate span.disappoint::before {
+  content: '😞';
+}
+
+.rate span.not-satisfied::before {
+  content: '😔';
+}
+
+.rate span.okaish::before {
+  content: '😑';
+}
+
+.rate span.satisfied::before {
+  content: '😌';
+}
+
+.rate span.happy::before {
+  content: '😄';
+}
+
+.plain i::before {
+  content: "\f006";
+}
+
+.gold {
+  color: goldenrod !important;
+}
+
+.green {
+  color: greenyellow;
+}
