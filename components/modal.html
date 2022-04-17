@@ -1,0 +1,135 @@
+<div class="component">
+  <h2>Modal</h2>   
+  <p>Modals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the document and remove scroll from the <body> so that modal content scrolls instead.</p>
+  
+  <div class="hr-border">
+    <!-- Default -->
+    <h2>Default</h2>
+    <p>Below is a static modal example (meaning its position and display have been overridden). Included are the modal header, modal body, and modal footer.</p>
+
+    <div>
+      <div class="code-border">
+        <div class="code-bg">
+          <div class="modal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="default primary">Save changes</button>
+                  <button type="button" class="default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <code>
+          <xmp>
+            <div class="modal">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="default primary">Save changes</button>
+                    <button type="button" class="default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </xmp>
+        </code>
+      </div>
+    </div>
+
+     <!-- Modal on click -->
+     <h2>Modal on click</h2>
+     <p>Add modal on your page in just one click.</p>
+ 
+     <div>
+       <div class="code-border">
+         <div class="code-bg">
+          <button type="button" class="default primary" data-toggle="modal" data-target="#exampleModalCenter" id="openModal">
+            Launch demo modal
+          </button>
+
+           <div class="modal fade" id="exampleModalCenter" role="dialog" aria-hidden="true">
+             <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <h5 class="modal-title">Modal title</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                   </button>
+                 </div>
+                 <div class="modal-body">
+                   <p>Modal body goes here.</p>
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="default primary">Save changes</button>
+                   <button type="button" class="default" id="closeModal" data-dismiss="modal">Close</button>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <code>
+           <xmp>
+            <button type="button" class="default primary" data-toggle="modal" data-target="#exampleModalCenter" id="openModal">
+              Launch demo modal
+            </button>
+            
+            <div class="modal fade" id="exampleModalCenter" role="dialog" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="default primary">Save changes</button>
+                    <button type="button" class="default" id="closeModal" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </xmp>
+         </code>
+       </div>
+     </div>
+
+
+  </div>
+</div>
+<script>
+  $(document).ready(function(){
+    $('#openModal').on('click', function(){
+      let target = $(this).data('target');
+      $(target).show();
+      $(target).removeClass('fade');
+    });
+    $('#closeModal').on('click', function(){
+      // debugger
+      $(this).closest('.modal');
+    });
+  });
+</script>

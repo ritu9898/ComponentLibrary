@@ -10,6 +10,7 @@
 @import url('./components/style/list.css');
 @import url('./components/style/grid.css');
 @import url('./components/style/rating.css');
+@import url('./components/style/modal.css');
 
 :root {
   --header: linear-gradient(135deg, #1da1f2, #981ceb);
